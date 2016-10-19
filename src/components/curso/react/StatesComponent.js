@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import Caja from './../global/CajaComponent';
+import CajaComponent from './../global/CajaComponent';
 
 require('styles/curso/react/States.scss');
 
@@ -23,13 +23,13 @@ class StatesComponent extends React.Component {
   render() {
     return (
       <div className="states-component">
-        <Caja color="red">
+        <CajaComponent color="red">
           <input
             type="text"
             value={this.state.input}
             // onChange={this.handleInputChange}
           />
-        </Caja>
+        </CajaComponent>
       </div>
     );
   }

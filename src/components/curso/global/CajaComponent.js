@@ -10,8 +10,8 @@ class CajaComponent extends React.Component {
 
     return (
       <div className="caja-component" style={style}>
-        {this.props.children}
         {/*Please edit src/components/curso/global//CajaComponent.js to update this component!*/}
+        {this.props.children}
       </div>
     );
   }
