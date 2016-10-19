@@ -27,8 +27,9 @@ class StatesComponent extends React.Component {
           <input
             type="text"
             value={this.state.input}
-            // onChange={this.handleInputChange}
+            onChange={this.handleInputChange}
           />
+          <h1>{this.state.input}</h1>
         </CajaComponent>
       </div>
     );
